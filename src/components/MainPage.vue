@@ -50,6 +50,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+body {
+  position: relative;
+}
 main {
   background-color: #1e2d3b;
 }
@@ -57,12 +60,14 @@ main {
   padding: 4rem;
 }
 .loader-container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     width: 80px;
     height: 80px;
     border: 5px solid #FFF;

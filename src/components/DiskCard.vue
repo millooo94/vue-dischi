@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .contents {
-  height: 368px;
+  height: 100%;
   background-color: #2e3a46;
 }
 
